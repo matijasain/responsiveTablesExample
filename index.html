@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NetGen Test</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="toggle-button">
+        <h1>Books</h1>
+        <div>
+          <button onclick="myFunction()">
+            <span class="material-icons" id="button">view_module</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="column-list-headers">
+        <ul>
+          <li class="title">Title</li>
+          <li class="quote">Quote</li>
+          <li class="author">Author</li>
+          <li class="cover">Cover</li>
+          <li class="likes">Likes</li>
+        </ul>
+      </div>
+
+      <div class="row">
+        <div class="column column-list first">
+          <h2>The Wizard of Oz</h2>
+          <p class="quote">
+            When a tornado rips through Kansas, Dorothy (Judy Garland) and her
+            dog, Toto, are whisked away in their house to the magical land of
+            Oz. They follow the Yellow Brick Road toward the Emerald City to
+            meet the Wizard
+          </p>
+          <p class="author">Frank Baum</p>
+          <div>
+            <img src="./img/cover.png" />
+          </div>
+          <span class="likes"><span class="material-icons">star</span>16</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+
+        <div class="column column-list">
+          <h2>Moby Dick</h2>
+          <p class="quote">
+            Moby-Dick; or, The Whale is an 1851 novel by American writer Herman
+            Melville. The book is the sailor Ishmael's narrative of the
+            obsessive quest of Ahab, captain of the whaling ship Pequod, for
+            revenge on Moby Dick
+          </p>
+          <p class="author">Herman Melville</p>
+          <span>
+            <img src="./img/cover.png" />
+          </span>
+          <span class="likes"><span class="material-icons">star</span>28</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+        <div class="column column-list">
+          <h2>The War of the Worlds</h2>
+          <p class="quote">
+            The War of the Worlds is a science fiction novel by English author
+            H. G. Wells, first serialised in 1897 by Pearson's Magazine in the
+            UK and by Cosmopolitan magazine in the US.
+          </p>
+          <p class="author">H. G. Wells</p>
+          <span>
+            <img src="./img/cover.png" />
+          </span>
+          <span class="likes"><span class="material-icons">star</span>19</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+
+        <div class="column column-list">
+          <h2>At the Earth's Core</h2>
+          <p class="quote">
+            Dr. Abner Perry (Peter Cushing) is an English scientist who has
+            invented a massive drill that can dig deep into the earth. Joined by
+            his adventure-seeking American backer, David Innes (Doug McClure)
+          </p>
+          <p class="author">Edgar Rice Burroughs</p>
+          <span>
+            <img src="./img/cover.png" />
+          </span>
+          <span class="likes"><span class="material-icons">star</span>8</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column column-list">
+          <h2>A Princess of Mars</h2>
+          <p class="quote">
+            A Princess of Mars is a science fantasy novel by American writer
+            Edgar Rice Burroughs, the first of his Barsoom series. It was first
+            serialized in the pulp magazine All-Story Magazine from
+            February–July, 1912.
+          </p>
+          <p class="author">Edgar Rice Burroughs</p>
+          <span>
+            <img src="./img/cover.png" />
+          </span>
+          <span class="likes"><span class="material-icons">star</span>11</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+
+        <div class="column column-list">
+          <h2>Alice in Wonderland</h2>
+          <p class="quote">
+            Alice, now 19 years old, follows a rabbit in a blue coat to a
+            magical wonderland from her dreams where she is reunited with her
+            friends who make her realise her true destiny.
+          </p>
+          <p class="author">Lewis Carroll</p>
+          <span>
+            <img src="./img/cover.png" />
+          </span>
+          <span class="likes"><span class="material-icons">star</span>21</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+
+        <div class="column column-list">
+          <h2>The secret plague</h2>
+          <p class="quote">
+            The Scarlet Plague is a post-apocalyptic fiction novel written by
+            Jack London and originally published in London Magazine in 1912.
+          </p>
+          <p class="author">Jack London</p>
+          <span>
+            <img src="./img/cover.png" />
+          </span>
+          <span class="likes"><span class="material-icons">star</span>13</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+
+        <div class="column column-list">
+          <h2>Around the World in 80 Days</h2>
+          <p class="quote">
+            A Chinese thief joins an eccentric Englishman who plans to
+            circumnavigate the globe in 80 days to win a bet. Along the way,
+            they encounter several obstacles and a detective determined to
+            impede them.
+          </p>
+          <p class="author">Jules Verne</p>
+          <span>
+            <img src="./img/cover.png" />
+          </span>
+          <span class="likes"><span class="material-icons">star</span>18</span>
+          <span class="submenu">
+            <span class="material-icons">more_horiz</span>
+            <div class="submenu-content">
+              <ul>
+                <li>Edit book details</li>
+                <li>Duplicate book</li>
+                <li>Move book</li>
+                <li>
+                  Delete book
+                  <p>Delete this book permanently</p>
+                </li>
+              </ul>
+            </div>
+          </span>
+        </div>
+      </div>
+
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
