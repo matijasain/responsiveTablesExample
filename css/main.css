@@ -14,10 +14,12 @@ html {
   margin: auto;
   margin-bottom: 100px; }
 
-.toggle-button {
+.header {
   margin: 50px 0;
   display: flex;
   justify-content: space-between; }
+  .header .button {
+    border: 0; }
 
 body {
   font-family: 'Roboto', sans-serif;

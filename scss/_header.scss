@@ -1,5 +1,11 @@
-.toggle-button {
+.header {
   margin: 50px 0;
   display: flex;
   justify-content: space-between;
+  
+  .button {
+    border: 0;
+  }
+
 }
+
