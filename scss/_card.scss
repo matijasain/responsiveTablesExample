@@ -1,7 +1,6 @@
 .column {
   float: left;
   width: 100%;
-  padding: 10px;
   min-height: 120px;
   background-color: #fff;
 
@@ -17,35 +16,52 @@
     vertical-align: middle;
     align-items: center;
 
-    h2 {
-      width: 15%;
-      margin-right: 5%;
-    }
-
-    img {
-      width: 40px;
-    }
-
-    .quote {
-      width: 45%;
-      margin-right: 5%;
-    }
-
-    .author {
-      width: 7%;
-      margin-right: 3%;
-    }
-
-    .likes {
-      width: 5%;
-      margin-left: 3%;
-
+    .item {
+      min-height: 150px;
       display: flex;
-      vertical-align: middle;
       align-items: center;
+      margin: auto;
 
-      .material-icons {
-        font-size: 12px;
+      &.title-container {
+        width: 150px;
+      }
+
+      &.quote-container {
+        color: #8a8a8a;
+
+        width: 350px;
+      }
+
+      &.author-container {
+        color: #8a8a8a;
+
+        width: 100px;
+      }
+
+      &.image-container {
+        padding: 15px;
+        background-color: #a1ebed;
+        justify-content: center;
+        width: 150px;
+
+        img {
+          width: 60px;
+        }
+      }
+
+      &.likes-container {
+        width: 50px;
+
+        color: #8a8a8a;
+
+        .likes {
+          display: flex;
+          align-items: center;
+
+          .material-icons {
+            padding: 2px;
+          }
+        }
       }
     }
 
@@ -67,6 +83,7 @@
     .submenu-content {
       display: none;
       position: absolute;
+      right: 0;
       background-color: #46494d;
       color: #fff;
       min-width: 160px;
@@ -141,6 +158,8 @@
 
 .grid {
   width: 50%;
+
+  min-height: 550px;
 }
 
 /* Clear floats after the columns */

@@ -44,7 +44,6 @@ h2 {
 .column {
   float: left;
   width: 100%;
-  padding: 10px;
   min-height: 120px;
   background-color: #fff; }
   .column-list {
@@ -56,25 +55,34 @@ h2 {
     text-align: left;
     vertical-align: middle;
     align-items: center; }
-    .column-list h2 {
-      width: 15%;
-      margin-right: 5%; }
-    .column-list img {
-      width: 40px; }
-    .column-list .quote {
-      width: 45%;
-      margin-right: 5%; }
-    .column-list .author {
-      width: 7%;
-      margin-right: 3%; }
-    .column-list .likes {
-      width: 5%;
-      margin-left: 3%;
+    .column-list .item {
+      min-height: 150px;
       display: flex;
-      vertical-align: middle;
-      align-items: center; }
-      .column-list .likes .material-icons {
-        font-size: 12px; }
+      align-items: center;
+      margin: auto; }
+      .column-list .item.title-container {
+        width: 150px; }
+      .column-list .item.quote-container {
+        color: #8a8a8a;
+        width: 350px; }
+      .column-list .item.author-container {
+        color: #8a8a8a;
+        width: 100px; }
+      .column-list .item.image-container {
+        padding: 15px;
+        background-color: #a1ebed;
+        justify-content: center;
+        width: 150px; }
+        .column-list .item.image-container img {
+          width: 60px; }
+      .column-list .item.likes-container {
+        width: 50px;
+        color: #8a8a8a; }
+        .column-list .item.likes-container .likes {
+          display: flex;
+          align-items: center; }
+          .column-list .item.likes-container .likes .material-icons {
+            padding: 2px; }
     .column-list .submenu {
       position: relative;
       display: inline-block; }
@@ -87,6 +95,7 @@ h2 {
     .column-list .submenu-content {
       display: none;
       position: absolute;
+      right: 0;
       background-color: #46494d;
       color: #fff;
       min-width: 160px;
@@ -126,7 +135,8 @@ h2 {
         width: 15%; }
 
 .grid {
-  width: 50%; }
+  width: 50%;
+  min-height: 550px; }
 
 /* Clear floats after the columns */
 .row:after {
