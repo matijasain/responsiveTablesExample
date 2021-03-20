@@ -1,1 +1,1 @@
-# netGen
+# Responsive tables example
